@@ -1,0 +1,28 @@
+{% extends "partials/layout.html" %}
+{% block body %}
+    <div id="login-row" class="row full-height" >
+        <div id="login-column" class="col-md-6 fillLeft ">
+            <form id="login-form" class="form " action="{{ url_for ('isNameAccepted') }}" method="post">
+                {% if not usernameFree %}
+                    <h5 class="text-center text-danger">The username is taken.</h3>
+                {% else %}
+                    <h5 class="text-center text-info">Log in to your account.</h3>
+                {% endif %}
+
+                <div class="form-group text-center">
+                    <label for="username" class="text-info">Username:<br>
+                    <input type="text" name="username" id="username" class="form-control" required minlength="5" maxlength="20">
+                </div>
+                
+                <div class="form-group text-center">
+                    <input type="submit" name="submit" class="btn btn-info btn-md" value="Login">
+                </div>
+            </form>
+        </div>
+        <div class="col-md-6 fillRight">
+            <p class="">
+                    asdasadasd
+            </p>
+        </div>
+    </div>
+{% endblock body %}

@@ -1,0 +1,23 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.containerClass {
+    height: 100%;
+}
+
+.full-height {
+    height: 100vh;
+    
+}
+
+.fillLeft {
+    background-color: #101357;
+    color: white;
+}
+
+.fillRight {
+    background-color: #FEA49F;
+    color: white;
+}

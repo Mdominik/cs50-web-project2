@@ -1,0 +1,47 @@
+{% extends "partials/layout.html" %}
+{% block body %}
+    <div id="login-row" class="row full-height" >
+        <div class="col-md-2 p-3 fillRight">
+                    <div class="list-group fillRight">
+                            <label>Your chats:</label>
+                            <a href="#" class="list-group-item list-group-item-action fillLeft">
+                              #chat
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+                            <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+                            <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+                            <a href="#" class="list-group-item list-group-item-action">Vestibulum at eros</a>
+                    </div>
+                    <br/>
+                    <form>
+                            <label>New channel:</label>
+                            <div class="form-group">
+                                    <label for="exampleInputEmail1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="new channel">
+                            </div>
+                            <button type="submit" class="btn fillLeft">Create</button>
+                    </form>
+        </div>
+
+        <div id="login-column" class="col-md-8 fillLeft ">
+            <div class="col-md-6">
+                    <label>Chat: #mojczat</label>
+                <form>
+
+                    <div class="form-group">
+                        <br/>
+                        
+                        <textarea class="form-control p-2" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn mb-2 fillRight">Send</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="col-md-2 p-3 fillRight">
+            <p class="">
+                    
+            </p>
+        </div>
+    </div>
+{% endblock body %}

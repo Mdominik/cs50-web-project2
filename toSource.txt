@@ -1,0 +1,5 @@
+export FLASK_APP=/home/dominik/projects/cs50/project2/application.py
+export DATABASE_URL=postgres://lspmtorgdzztgq:843c1f8d5cbe0260ea4a55f3004f8b24744ff9070b5e4c969f51565f80947c3b@ec2-54-247-118-139.eu-west-1.compute.amazonaws.com:5432/dfv8jnk275jcef
+export FLASK_DEBUG=1
+export FLASK_ENV=development
+export SECRET_KEY=dffac644b59fd707a3c818a488c8be058b3790df1961195fb79555771bb30e6a
